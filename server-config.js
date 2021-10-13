@@ -4,7 +4,7 @@ const port = 3000
 
 const server = http.createServer(function(req,res) {
     res.writeHead(200, { 'Content-Type': 'text/html' })
-    fs.readFile('responsive-server.html', function(error, data) {
+    fs.readFile('server-Rendering.js', function(error, data) {
         if (error) {
             res.writeHead(404)
             res.write('Error: File not Found')

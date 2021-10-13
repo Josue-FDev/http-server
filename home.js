@@ -1,26 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Responsive</title>
-    <link ref="stylesheet" type="text/css" href="estilos.css"/>
-    <meta name="viewport"        content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <section class="home">
+const Home = () => {
+    return 
+    function section() { 
+        <section class="home">
         <div class="in-flex">Windows PowerShell
             Copyright (C) Microsoft Corporation. Todos los derechos reservados.
             Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
-            PS C:\Users\User\Desktop></div>
+            PS C:\Users\User\Desktop</div>
         <div class="in-flex">
             <div>Windows PowerShell
                 Copyright (C) Microsoft Corporation. Todos los derechos reservados.
                 Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
-                PS C:\Users\User\Desktop></div>
+                PS C:\Users\User\Desktop</div>
             <div>Windows PowerShell
                 Copyright (C) Microsoft Corporation. Todos los derechos reservados.
                 Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
-                PS C:\Users\User\Desktop></div>
+                PS C:\Users\User\Desktop</div>
         </div>
-    </section>
-</body>
-</html>
+        </section>
+}  
+} 
+
+export default Home
